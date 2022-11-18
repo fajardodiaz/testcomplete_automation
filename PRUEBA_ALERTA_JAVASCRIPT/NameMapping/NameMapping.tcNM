@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{51DCECB3-60BE-4F30-A752-9F8F23E81554}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{F5B85067-EF38-43F1-A4DE-19DC67402EEF}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{C9B97DD7-A4B1-4EE4-935C-60659917486A}">
+								<Image FileName="-1800271942" Left="-8" Top="-8" Right="1374" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageTestcomplete15DialogsSample" Key="{BAD6CE23-7770-4CDF-9298-885281D7E11C}">
+								<Image FileName="-1800271942" Left="0" Top="103" Right="1366" Bottom="720" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://secure.smartbearsoftware.com/samples/testcomplete15/dialogs/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkShowAlert" Key="{1D50EBF1-5D9F-4C1C-9AEC-B590225E925E}">
+										<Image FileName="-1800271942" Left="493" Top="371" Right="573" Bottom="396" />
+										<TypeInfo Item0="{63A826AB-EBF9-47EE-9082-18651FD1C5C7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Show Alert&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTestcompleteDialogsSampl" Key="{A2129267-2B3B-4753-A8B1-18E59AEDC56A}">
+										<Image FileName="2091605031" Left="0" Top="103" Right="1366" Bottom="667" />
+										<TypeInfo Item0="{63A826AB-EBF9-47EE-9082-18651FD1C5C7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="html[contains(., &apos;TestComplete Dialogs Sample&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//html" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageStore" Key="{4883D490-8387-4AD9-8251-33C10C8F6E26}">
+								<Image FileName="-1293530136" Left="0" Top="103" Right="1366" Bottom="720" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.demoblaze.com/prod.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navProductStore" Key="{6F4A1D9A-D294-442A-915B-C624C5D07E8E}">
+										<Image FileName="1034895524" Left="0" Top="103" Right="1349" Bottom="193" />
+										<Selectors>
+											<Selector>
+												<Value Value="nav[contains(., &apos;PRODUCT STORE&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome" Key="{ADFE2DDC-2DB9-4442-BC3A-FE18A7618A33}">
+										<Image FileName="1034895524" Left="470" Top="120" Right="851" Bottom="160" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;navbar-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbarExample&apos;]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHome" Key="{158EA026-7C01-483C-9B0D-0825D67E783F}">
+										<Image FileName="1034895524" Left="470" Top="120" Right="529" Bottom="160" />
+										<TypeInfo Item0="{63A826AB-EBF9-47EE-9082-18651FD1C5C7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbarExample&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAddToCart" Key="{CD800E2B-E15D-42BA-A153-7FD7842ABBFE}">
+										<Image FileName="-715038532" Left="565" Top="518" Right="714" Bottom="569" />
+										<TypeInfo Item0="{63A826AB-EBF9-47EE-9082-18651FD1C5C7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Add to cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tbodyid&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tbodyid&apos;]/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelProductStore" Key="{925637A0-407A-4BF6-ABA5-9F7714831506}">
+										<Image FileName="2036096840" Left="105" Top="111" Right="1245" Bottom="169" />
+										<TypeInfo Item0="{63A826AB-EBF9-47EE-9082-18651FD1C5C7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(., &apos;PRODUCT STORE&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageIndex" Key="{5A69C89E-6646-4A11-9B5C-EF0A08C157DD}">
+								<Image FileName="-1293530136" Left="0" Top="103" Right="1366" Bottom="720" />
+								<TypeInfo Item0="{22822A2E-6293-4423-A457-DA3DB868FFED}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.demoblaze.com/index.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeSamsungGalaxyS6" Key="{E932D3A9-1D16-4BCF-BB59-149407C40E5E}">
+										<Image FileName="-296423876" Left="426" Top="597" Right="639" Bottom="623" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h4[.=&apos;Samsung galaxy s6&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//h4[contains(@class, &apos;card-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//h4" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSamsungGalaxyS6" Key="{37F6B81D-E97F-405B-91B6-A2DBD3C77449}">
+										<Image FileName="-296423876" Left="426" Top="598" Right="623" Bottom="622" />
+										<TypeInfo Item0="{63A826AB-EBF9-47EE-9082-18651FD1C5C7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Samsung galaxy s6&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//h4/a[contains(@class, &apos;hrefch&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tbodyid&apos;]//div/h4/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{F5B85067-EF38-43F1-A4DE-19DC67402EEF}">
+			<Child Name="BrowserWindow" Owner="{C9B97DD7-A4B1-4EE4-935C-60659917486A}" />
+			<Child Name="pageTestcomplete15DialogsSample" Owner="{BAD6CE23-7770-4CDF-9298-885281D7E11C}">
+				<Child Name="linkShowAlert" Owner="{1D50EBF1-5D9F-4C1C-9AEC-B590225E925E}" />
+				<Child Name="textnodeTestcompleteDialogsSampl" Owner="{A2129267-2B3B-4753-A8B1-18E59AEDC56A}" />
+			</Child>
+			<Child Name="pageStore" Owner="{4883D490-8387-4AD9-8251-33C10C8F6E26}">
+				<Child Name="navProductStore" Owner="{6F4A1D9A-D294-442A-915B-C624C5D07E8E}">
+					<Child Name="textnodeHome" Owner="{ADFE2DDC-2DB9-4442-BC3A-FE18A7618A33}">
+						<Child Name="linkHome" Owner="{158EA026-7C01-483C-9B0D-0825D67E783F}" />
+					</Child>
+					<Child Name="panelProductStore" Owner="{925637A0-407A-4BF6-ABA5-9F7714831506}" />
+				</Child>
+				<Child Name="linkAddToCart" Owner="{CD800E2B-E15D-42BA-A153-7FD7842ABBFE}" />
+			</Child>
+			<Child Name="pageIndex" Owner="{5A69C89E-6646-4A11-9B5C-EF0A08C157DD}">
+				<Child Name="textnodeSamsungGalaxyS6" Owner="{E932D3A9-1D16-4BCF-BB59-149407C40E5E}">
+					<Child Name="linkSamsungGalaxyS6" Owner="{37F6B81D-E97F-405B-91B6-A2DBD3C77449}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

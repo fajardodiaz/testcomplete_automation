@@ -1,0 +1,6 @@
+﻿function Seleccionar_Articulo(){
+  var page = Sys.Browser("*").Page("*")
+  
+  var Articulo = page.FindChildByXPath("//a[contains(text(),'Samsung galaxy s6')]")
+  Articulo.Click();
+}

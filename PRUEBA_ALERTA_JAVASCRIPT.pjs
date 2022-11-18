@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{CB65BEE3-C677-45CE-8204-7CC0BDAD8D8B}">
+	<children>
+		<child name="PRUEBA_ALERTA_JAVASCRIPT" key="{F933CE8D-57FB-41DF-8A05-7949DE8E456C}" path="PRUEBA_ALERTA_JAVASCRIPT\PRUEBA_ALERTA_JAVASCRIPT.mds" />
+	</children>
+	<testItems key="{E43B8FEA-34A7-443E-81D9-9139F5E7B901}">
+		<children>
+			<testItem key="{F933CE8D-57FB-41DF-8A05-7949DE8E456C}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{07862681-EB63-4A16-9811-6E291A853083}" />
+	<analysis key="{D5AEE75A-2DD0-4319-B77A-A77786A83544}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
