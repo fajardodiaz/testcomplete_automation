@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{D60142E0-DA6C-4249-ABFE-5152A4AF41F8}" />
+	<data key="{D60142E0-DA6C-4249-ABFE-5152A4AF41F8}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44883.6595138889" objectName="Aliases.browser.pageStore2.linkItemc" objectLeft="375" objectTop="705" objectRight="630" objectBottom="761" clickPointX="446" clickPointY="731" imageFileName="tcvi702009363200.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44883.659525463" objectName="Aliases.browser.pageStore.textnodeAppleMonitor24.linkAppleMonitor24" objectLeft="681" objectTop="697" objectRight="866" objectBottom="721" clickPointX="788" clickPointY="709" imageFileName="tcvi702123463201.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44883.6595601852" objectName="Aliases.browser.pageStore.linkAddToCart" objectLeft="784" objectTop="486" objectRight="932" objectBottom="537" clickPointX="873" clickPointY="506" imageFileName="tcvi702392163202.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

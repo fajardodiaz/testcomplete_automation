@@ -71,7 +71,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://www.demoblaze.com/prod.html*" />
+										<Value Value="https://www.demoblaze.com/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -157,6 +157,38 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeAppleMonitor24" Key="{8AD3073B-5603-4BED-8E4C-8D2E9E95CB8C}">
+										<Image FileName="-1007815133" Left="681" Top="696" Right="894" Bottom="722" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h4[.=&apos;Apple monitor 24&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//h4[contains(@class, &apos;card-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//h4" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAppleMonitor24" Key="{DD25EFA9-8BED-44DC-B7CA-6E31E16108F3}">
+										<Image FileName="-1007815133" Left="681" Top="697" Right="866" Bottom="721" />
+										<TypeInfo Item0="{63A826AB-EBF9-47EE-9082-18651FD1C5C7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Apple monitor 24&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//h4/a[contains(@class, &apos;hrefch&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tbodyid&apos;]//div/h4/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageIndex" Key="{5A69C89E-6646-4A11-9B5C-EF0A08C157DD}">
@@ -205,6 +237,28 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageStore2" Key="{95010597-80D4-4CE5-97E9-BFB01E2C9AD6}">
+								<Image FileName="922743379" Left="0" Top="71" Right="1876" Bottom="964" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.demoblaze.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkItemc" Key="{A685789A-67C3-451B-97A3-2641D0C2BCB4}">
+										<Image FileName="922743379" Left="375" Top="705" Right="630" Bottom="761" />
+										<TypeInfo Item0="{63A826AB-EBF9-47EE-9082-18651FD1C5C7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Monitors&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -226,11 +280,17 @@
 					<Child Name="panelProductStore" Owner="{925637A0-407A-4BF6-ABA5-9F7714831506}" />
 				</Child>
 				<Child Name="linkAddToCart" Owner="{CD800E2B-E15D-42BA-A153-7FD7842ABBFE}" />
+				<Child Name="textnodeAppleMonitor24" Owner="{8AD3073B-5603-4BED-8E4C-8D2E9E95CB8C}">
+					<Child Name="linkAppleMonitor24" Owner="{DD25EFA9-8BED-44DC-B7CA-6E31E16108F3}" />
+				</Child>
 			</Child>
 			<Child Name="pageIndex" Owner="{5A69C89E-6646-4A11-9B5C-EF0A08C157DD}">
 				<Child Name="textnodeSamsungGalaxyS6" Owner="{E932D3A9-1D16-4BCF-BB59-149407C40E5E}">
 					<Child Name="linkSamsungGalaxyS6" Owner="{37F6B81D-E97F-405B-91B6-A2DBD3C77449}" />
 				</Child>
+			</Child>
+			<Child Name="pageStore2" Owner="{95010597-80D4-4CE5-97E9-BFB01E2C9AD6}">
+				<Child Name="linkItemc" Owner="{A685789A-67C3-451B-97A3-2641D0C2BCB4}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
